@@ -23,7 +23,7 @@ sleep(5)
 if input('Fight? (yes/no) >>') == 'yes':
    print('\nLET THE FIGHT BEGIN!\n')
    sleep(5)
-   knight.fight(rascal)
+   knight.strike(rascal)
    sleep(5)
 
 
@@ -41,4 +41,4 @@ dragon.print_info()
 
 print('\nLET THE FIGHT BEGIN!\n')
 sleep(5)
-knight.fight(dragon)
+knight.strike(dragon)
